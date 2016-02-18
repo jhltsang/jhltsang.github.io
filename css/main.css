@@ -74,7 +74,7 @@ overflow:hidden;}
 
 #overlay    {  background:rgba(0,0,0,.75);
                text-align:center;
-               padding:45px 0 66px 0;
+               padding:5px 0 66px 0;
                opacity:0;
                -webkit-transition: opacity .25s ease;
 -moz-transition: opacity .25s ease;}
@@ -85,4 +85,4 @@ overflow:hidden;}
 #text       {  font-family:Helvetica;
                font-weight:500;
                color:rgba(255,255,255,.85);
-               font-size:30px;}
+               font-size:15px;}
