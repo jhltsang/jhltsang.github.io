@@ -30,11 +30,14 @@ h1 {
     font-size: 12em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
+    text-align: center;
+
 }
 
 h2 {
     font-size: 6em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
 }
 
 p {
