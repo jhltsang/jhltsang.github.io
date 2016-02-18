@@ -60,12 +60,8 @@ ul.posts li {
     list-style: none;
 }
 
-.thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+.thumbnail:hover span{ 
+    visibility: visible; 
+    left: 300px; 
+    top: 5px; 
 }
