@@ -13,7 +13,7 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 40px;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: 300;
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-size: 6em;
+    font-size: 4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
 }
