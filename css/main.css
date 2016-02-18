@@ -61,7 +61,7 @@ ul.posts li {
 }
 
 body    {  background:#e7e7e7;}
-#box    {  width:300px;
+#box    {  width:200px;
            height:200px;
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           border-bottom:2px solid #fff;
