@@ -45,9 +45,23 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-    margin: 25px 100px 0px 100px; 
+    margin: 0px 100px 0px 100px; 
     text-align: justify;
     text-justify: inter-word;
+}
+
+ul li {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #333;
+    margin: -15px 100px 15px 100px; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+hr {
+    padding: 0px;
+    margin: 0px 100px 0px 100px ;    
 }
 
 footer {
