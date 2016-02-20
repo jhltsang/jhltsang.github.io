@@ -96,7 +96,7 @@ ul.posts li {
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 0px;
+    top: -15px;
     left: 0px;
     z-index: -1; 
 }
@@ -130,12 +130,6 @@ ul.posts li {
     opacity: 0;
     color: #fff;
     animation: titleAnimation 36s linear infinite 0s; 
-}
-.cb-slideshow li div h3 { 
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 240px;
-    padding: 0;
-    line-height: 200px; 
 }
 
 .cb-slideshow li:nth-child(1) span { 
@@ -196,13 +190,6 @@ ul.posts li {
 
 .no-cssanimations .cb-slideshow li span{
 	opacity: 1;
-}
-
-@media screen and (max-width: 1140px) { 
-    .cb-slideshow li div h3 { font-size: 140px }
-}
-@media screen and (max-width: 600px) { 
-    .cb-slideshow li div h3 { font-size: 80px }
 }
 
 
