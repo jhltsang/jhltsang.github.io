@@ -96,13 +96,13 @@ ul.posts li {
     position: fixed;
     width: 100%;
     height: 100%;
-    top: -15px;
+    top: -20px;
     left: 0px;
     z-index: -1; 
 }
 .cb-slideshow:after { 
     content: '';
-    background: transparent url(../images/pattern.png) repeat top left; 
+    background: transparent url(http://i.imgur.com/OCIzxaK.png) repeat top left; 
 }
 
 .cb-slideshow li span { 
