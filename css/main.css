@@ -7,10 +7,7 @@ body {
 {
     color: white;
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    2px 1px 0 #000; 
 }
 
 nav ul, footer ul {
@@ -38,17 +35,25 @@ a:hover {
 }
 
 h1 {
-    font-size: 12em;
+    font-size: 6em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: bold;
+    font-weight: 550;
+    font-style: italic;
     text-align: center;
-
 }
 
 h2 {
     font-size: 4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: 300;
+    text-align: center;
+    margin: -60px
 }
 
 p {
