@@ -33,7 +33,7 @@ a:hover {
        top: 0;
        width: 100%;
        text-align: center;
-       height:28px;
+       height:60px;
        background-color: #1F1F1F;
        border: none;
        z-index: 1000;
@@ -52,10 +52,10 @@ a:hover {
         background-color:#1F1F1F;
         color:#C4C4C4;
         /*display:block;*/
-        padding:5px 15px;
+        padding:19px 50px;
         text-align: center;
         text-decoration:none;
-        font-size:14px;
+        font-size:20px;
     }
 
     ul#list-nav a:hover   {
