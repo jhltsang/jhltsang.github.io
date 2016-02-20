@@ -3,13 +3,6 @@ body {
     width: 70%;
 }
 
-.strokeme
-{
-    color: white;
-    text-shadow:
-    2px 1px 0 #000; 
-}
-
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -34,6 +27,48 @@ a:hover {
 
 }
 
+/*** FIXED NAVIGATION BAR ***/ 
+    div#wrapper {
+       position: fixed;
+       top: 0;
+       width: 100%;
+       text-align: center;
+       height:28px;
+       background-color: #1F1F1F;
+       border: none;
+       z-index: 1000;
+    }
+    ul#list-nav {
+        padding: 0px;
+        width: auto;
+        font-size: 120%;
+        text-decoration: none;
+        list-style: none;
+    }
+    ul#list-nav li {
+        display: inline;
+    }
+    ul#list-nav a {
+        background-color:#1F1F1F;
+        color:#C4C4C4;
+        /*display:block;*/
+        padding:5px 15px;
+        text-align: center;
+        text-decoration:none;
+        font-size:14px;
+    }
+
+    ul#list-nav a:hover   {
+        background-color:#4D4D4D;
+        text-decoration:none;
+    }
+
+    ul#list-nav a:active  {
+        background-color:#9C9C9C;
+        text-decoration:none;
+    }
+
+/*** HOME PAGE: JESSICA TSANG ***/ 
 h1 {
     font-size: 6em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -48,12 +83,21 @@ h2 {
     text-align: center;
 }
 
+/*** HOME PAGE DESCRIPTION: MECH ENG ***/ 
 h3 {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: 300;
     text-align: center;
     margin: -60px
+}
+
+/*** FONT SHADOW FOR HOME PAGE ***/
+.strokeme
+{
+    color: white;
+    text-shadow:
+    2px 1px 0 #000; 
 }
 
 p {
@@ -76,6 +120,7 @@ ul li {
     text-justify: inter-word;
 }
 
+/*** PADDING FOR CONTACT INFO ***/ 
 .padding
 {
     padding-left: 5px;
@@ -106,12 +151,14 @@ ul.posts li {
     list-style: none;
 }
 
+
+/*** HOME PAGE SLIDE SHOW ***/ 
 .cb-slideshow,
 .cb-slideshow:after { 
     position: fixed;
     width: 100%;
     height: 100%;
-    top: -20px;
+    top: 0px;
     left: 0px;
     z-index: -1; 
 }
@@ -208,6 +255,7 @@ ul.posts li {
 }
 
 
+/*** PORTFOLIO EFFECTS ***/ 
 #text       {  font-family:Helvetica;
                font-weight:500;
                color:rgba(255,255,255,.85);
@@ -219,6 +267,7 @@ ul.posts li {
                -webkit-transition: opacity .25s ease;
 -moz-transition: opacity .25s ease;} 
 
+/*** ART PORTFOLIO ***/ 
 #boxleftA1    {  width:300px;
            height:300px;
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
@@ -342,6 +391,8 @@ overflow:hidden;}
 #boxrightA3:hover #overlay {  
                opacity:1;}
 
+
+/*** PROJECT PORTFOLIO ***/
 #boxleftP1    {  width:300px;
            height:300px;
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
