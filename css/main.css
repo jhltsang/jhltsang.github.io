@@ -27,47 +27,6 @@ a:hover {
 
 }
 
-/*** FIXED NAVIGATION BAR ***/ 
-    div#wrapper {
-       position: fixed;
-       top: 0;
-       width: 100%;
-       text-align: center;
-       height:60px;
-       background-color: #1F1F1F;
-       border: none;
-       z-index: 1000;
-    }
-    ul#list-nav {
-        padding: 0px;
-        width: auto;
-        font-size: 120%;
-        text-decoration: none;
-        list-style: none;
-    }
-    ul#list-nav li {
-        display: inline;
-    }
-    ul#list-nav a {
-        background-color:#1F1F1F;
-        color:#C4C4C4;
-        /*display:block;*/
-        padding:19px 50px;
-        text-align: center;
-        text-decoration:none;
-        font-size:20px;
-    }
-
-    ul#list-nav a:hover   {
-        background-color:#4D4D4D;
-        text-decoration:none;
-    }
-
-    ul#list-nav a:active  {
-        background-color:#9C9C9C;
-        text-decoration:none;
-    }
-
 /*** HOME PAGE: JESSICA TSANG ***/ 
 h1 {
     font-size: 6em;
