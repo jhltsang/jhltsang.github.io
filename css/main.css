@@ -225,7 +225,7 @@ footer {
           position:relative;
           margin:50px auto 25px auto; 
           left: -325px;
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(http://i.imgur.com/9dQsx3Q.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -238,7 +238,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/zPEQycL.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -252,7 +252,7 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/3F5QsEX.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -266,7 +266,7 @@ overflow:hidden;}
           position:relative;
           margin:25px auto 25px auto; 
           left: -325px;
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/Tk1KYyH.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -279,7 +279,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/18jovWG.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -293,7 +293,7 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/UztD5yR.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -307,7 +307,7 @@ overflow:hidden;}
           position:relative;
           margin:25px auto 25px auto; 
           left: -325px;
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/rZwIbkX.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -320,7 +320,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/P9Jo1QU.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -334,12 +334,53 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/b6nlqZV.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
 
 #boxrightA3:hover #overlay {  
+               opacity:1;}
+
+#boxleftA4    {  width:300px;
+           height:300px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          position:relative;
+          margin:25px auto 25px auto; 
+          left: -325px;
+          background:url(https://i.imgur.com/ZZluoqz.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+#boxleftA4:hover #overlay {
+               opacity:1;}
+
+#boxcenterA4    {  width:300px;
+           height:300px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          position:relative;
+          margin:-325px auto 25px auto; 
+          background:url(https://i.imgur.com/kI4inDT.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+#boxcenterA4:hover #overlay {
+               opacity:1;}
+
+#boxrightA4    {  width:300px;
+           height:300px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          position:relative;
+          margin:-325px auto 25px auto; 
+          right: -325px; 
+          background:url(https://i.imgur.com/U85UOQu.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+#boxrightA4:hover #overlay {  
                opacity:1;}
 
 
