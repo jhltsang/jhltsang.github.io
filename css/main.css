@@ -225,7 +225,7 @@ footer {
           position:relative;
           margin:50px auto 25px auto; 
           left: -325px;
-          background:url(http://i.imgur.com/9dQsx3Q.jpg);
+          background:url(https://i.imgur.com/khxEpVE.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -238,7 +238,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/zPEQycL.jpg);
+          background:url(https://i.imgur.com/CPz0hJ9.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -252,7 +252,7 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(https://i.imgur.com/3F5QsEX.jpg);
+          background:url(https://i.imgur.com/7SfhFp0.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -266,7 +266,7 @@ overflow:hidden;}
           position:relative;
           margin:25px auto 25px auto; 
           left: -325px;
-          background:url(https://i.imgur.com/Tk1KYyH.jpg);
+          background:url(https://i.imgur.com/IgOnEK2.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -279,7 +279,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/18jovWG.jpg);
+          background:url(https://i.imgur.com/iDYsP7j.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -293,7 +293,7 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(https://i.imgur.com/UztD5yR.jpg);
+          background:url(https://i.imgur.com/w2lDvE1.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -307,7 +307,7 @@ overflow:hidden;}
           position:relative;
           margin:25px auto 25px auto; 
           left: -325px;
-          background:url(https://i.imgur.com/rZwIbkX.jpg);
+          background:url(https://i.imgur.com/PLUljNq.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -320,7 +320,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/P9Jo1QU.jpg);
+          background:url(https://i.imgur.com/Uy9JpxS.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -334,7 +334,7 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(https://i.imgur.com/b6nlqZV.jpg);
+          background:url(https://i.imgur.com/rxfPJx4.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -348,7 +348,7 @@ overflow:hidden;}
           position:relative;
           margin:25px auto 25px auto; 
           left: -325px;
-          background:url(https://i.imgur.com/ZZluoqz.jpg);
+          background:url(https://i.imgur.com/nsjo71B.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -361,7 +361,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/kI4inDT.jpg);
+          background:url(https://i.imgur.com/Kc9GsQA.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -375,7 +375,7 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(https://i.imgur.com/U85UOQu.jpg);
+          background:url(https://i.imgur.com/exfIvVU.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -383,7 +383,46 @@ overflow:hidden;}
 #boxrightA4:hover #overlay {  
                opacity:1;}
 
+#boxleftA5    {  width:300px;
+           height:300px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          position:relative;
+          margin:25px auto 25px auto; 
+          left: -325px;
+          background:url(https://i.imgur.com/akpSJt5.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
 
+#boxleftA5:hover #overlay {
+               opacity:1;}
+
+#boxcenterA5    {  width:300px;
+           height:300px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          position:relative;
+          margin:-325px auto 25px auto; 
+          background:url(https://i.imgur.com/xW2Qpzc.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+#boxcenterA5:hover #overlay {
+               opacity:1;}
+
+#boxrightA5    {  width:300px;
+           height:300px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          position:relative;
+          margin:-325px auto 25px auto; 
+          right: -325px; 
+          background:url(https://i.imgur.com/h4HqSgd.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+#boxrightA5:hover #overlay {  
+               opacity:1;}
 /*** PROJECT PORTFOLIO ***/
 #boxleftP1    {  width:300px;
            height:300px;
