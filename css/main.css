@@ -430,7 +430,7 @@ overflow:hidden;}
           position:relative;
           margin:50px auto 25px auto; 
           left: -325px;
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/EYlBnRd.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -443,7 +443,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/o88kUqF.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -457,7 +457,7 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/TcXllPM.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -471,7 +471,7 @@ overflow:hidden;}
           position:relative;
           margin:25px auto 25px auto; 
           left: -325px;
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/8lE3dr5.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -484,7 +484,7 @@ overflow:hidden;}
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           position:relative;
           margin:-325px auto 25px auto; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/1uv4LDh.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -498,7 +498,7 @@ overflow:hidden;}
           position:relative;
           margin:-325px auto 25px auto; 
           right: -325px; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+          background:url(https://i.imgur.com/uwxkIDY.jpg);
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -506,46 +506,6 @@ overflow:hidden;}
 #boxrightP2:hover #overlay {  
                opacity:1;}
 
-#boxleftP3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:25px auto 25px auto; 
-          left: -325px;
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
-
-#boxleftP3:hover #overlay {
-               opacity:1;}
-
-#boxcenterP3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
-
-#boxcenterP3:hover #overlay {
-               opacity:1;}
-
-#boxrightP3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
-
-#boxrightP3:hover #overlay {  
-               opacity:1;}
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('fonts/BebasNeue-webfont.eot');
