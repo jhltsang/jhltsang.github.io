@@ -75,10 +75,11 @@ ul li {
     font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
-    margin: -15px 100px 15px 100px; 
+    margin: -15px 100px 15px 150px; 
     text-align: justify;
     list-style-type: none;
     text-justify: inter-word;
+    list-style-type: circle;
 }
 
 /*** PADDING FOR CONTACT INFO ***/ 
