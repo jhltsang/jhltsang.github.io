@@ -1,899 +1,1098 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+  margin: 60px auto;
+  width: 70%;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+nav ul,
+footer ul {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
 }
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 4px;
-    font-size: 1.2em;
-    font-weight: 300;
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-left: -80px;
+  margin-right: -105px;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 a {
-    text-decoration: none;
-    color: #999;
+  text-decoration: none;
+  color: #999;
 }
 
 a:hover {
-    text-decoration: underline;
-
+  text-decoration: underline;
 }
 
-/*** HOME PAGE: JESSICA TSANG ***/ 
+
+/*** HOME PAGE: JESSICA TSANG ***/
+
 h1 {
-    font-size: 6em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: 550;
-    font-style: italic;
-    text-align: center;
-    margin: 150px; 
-}    
+  font-size: 6em;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: 550;
+  font-style: italic;
+  text-align: center;
+  margin: 150px;
+}
 
 h2 {
-    font-size: 4em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    text-align: center;
+  font-size: 4em;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  text-align: center;
 }
 
-/*** HOME PAGE DESCRIPTION: MECH ENG ***/ 
+
+/*** HOME PAGE DESCRIPTION: MECH ENG ***/
+
 h3 {
-    font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: 300;
-    text-align: center;
-    margin: -150px
+  font-size: 1.5em;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: 300;
+  text-align: center;
+  margin: -150px
 }
+
 
 /*** FONT SHADOW FOR HOME PAGE ***/
-.strokeme
-{
-    color: white;
-    text-shadow:
-    2px 1px 0 #000; 
+
+.strokeme {
+  color: white;
+  text-shadow: 2px 1px 0 #000;
 }
 
 p {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-    margin: 0px 100px 0px 100px; 
-    text-align: justify;
-    text-justify: inter-word;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
+  margin: 0px 100px 0px 100px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 ul li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.2em;
-    line-height: 1.4em;
-    color: #333;
-    margin: -15px 100px 15px 150px; 
-    text-align: justify;
-    list-style-type: none;
-    text-justify: inter-word;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: #333;
+  margin: -15px 100px 15px 150px;
+  text-align: justify;
+  list-style-type: none;
+  text-justify: inter-word;
 }
 
-/*** PADDING FOR CONTACT INFO ***/ 
-.padding
-{
-    padding-left: 5px;
+
+/*** PADDING FOR CONTACT INFO ***/
+
+.padding {
+  padding-left: 5px;
 }
 
-.paddingMessage
-{
-    padding-left: 5px;
-    padding-top: 5px;
+.paddingMessage {
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
 hr {
-    padding: 0px;
-    margin: 0px 100px 0px 100px ;    
+  padding: 0px;
+  margin: 0px 100px 0px 100px;
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
 }
 
-/*** HOME PAGE SLIDE SHOW ***/ 
+
+/*** HOME PAGE SLIDE SHOW ***/
+
 .cb-slideshow,
-.cb-slideshow:after { 
-    position: fixed;
-    width: 100%;
-    height: 100%; 
-    top: 0px;
-    left: 0px;
-    z-index: -1; 
-}
-.cb-slideshow:after { 
-    content: '';
-    background: transparent url(http://i.imgur.com/OCIzxaK.png) repeat top left; 
+.cb-slideshow:after {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
 }
 
-.cb-slideshow li span { 
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px; 
-    left: 0px;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
+.cb-slideshow:after {
+  content: '';
+  background: transparent url(http://i.imgur.com/OCIzxaK.png) repeat top left;
+}
+
+.cb-slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: -1;
+  animation: imageAnimation 36s linear infinite 0s;
+}
+
+.cb-slideshow li div {
+  z-index: 1000;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  animation: titleAnimation 36s linear infinite 0s;
+}
+
+.cb-slideshow li:nth-child(1) span {
+  background-image: url(http://www.imgbase.info/images/safe-wallpapers/digital_art/abstract/44194_abstract_triangles_abstract_triangles.jpg)
+}
+
+.cb-slideshow li:nth-child(2) span {
+  background-image: url(http://randomwallpapers.net/triangle-abstract-minimalist-double-1920x1080-wallpaper61873.jpg);
+  animation-delay: 6s;
+}
+
+.cb-slideshow li:nth-child(3) span {
+  background-image: url(http://hitwallpaper.com/wp-content/uploads/2013/07/Abstract-Triangle.jpg);
+  animation-delay: 12s;
+}
+
+.cb-slideshow li:nth-child(4) span {
+  background-image: url(../images/4.jpg);
+  animation-delay: 18s;
+}
+
+.cb-slideshow li:nth-child(5) span {
+  background-image: url(../images/5.jpg);
+  animation-delay: 24s;
+}
+
+.cb-slideshow li:nth-child(6) span {
+  background-image: url(../images/6.jpg);
+  animation-delay: 30s;
+}
+
+.cb-slideshow li:nth-child(2) div {
+  animation-delay: 6s;
+}
+
+.cb-slideshow li:nth-child(3) div {
+  animation-delay: 12s;
+}
+
+.cb-slideshow li:nth-child(4) div {
+  animation-delay: 18s;
+}
+
+.cb-slideshow li:nth-child(5) div {
+  animation-delay: 24s;
+}
+
+.cb-slideshow li:nth-child(6) div {
+  animation-delay: 30s;
+}
+
+@keyframes imageAnimation {
+  0% {
     opacity: 0;
-    z-index: -1;
-    animation: imageAnimation 36s linear infinite 0s; 
+    animation-timing-function: ease-in;
+  }
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  17% {
+    opacity: 1
+  }
+  25% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
 }
 
-.cb-slideshow li div { 
-    z-index: 1000;
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    animation: titleAnimation 36s linear infinite 0s; 
+@keyframes titleAnimation {
+  0% {
+    opacity: 0
+  }
+  8% {
+    opacity: 1
+  }
+  17% {
+    opacity: 1
+  }
+  19% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
 }
 
-.cb-slideshow li:nth-child(1) span { 
-    background-image: url(http://www.imgbase.info/images/safe-wallpapers/digital_art/abstract/44194_abstract_triangles_abstract_triangles.jpg) 
-}
-.cb-slideshow li:nth-child(2) span { 
-    background-image: url(http://randomwallpapers.net/triangle-abstract-minimalist-double-1920x1080-wallpaper61873.jpg);
-    animation-delay: 6s; 
-}
-.cb-slideshow li:nth-child(3) span { 
-    background-image: url(http://hitwallpaper.com/wp-content/uploads/2013/07/Abstract-Triangle.jpg);
-    animation-delay: 12s; 
-}
-.cb-slideshow li:nth-child(4) span { 
-    background-image: url(../images/4.jpg);
-    animation-delay: 18s; 
-}
-.cb-slideshow li:nth-child(5) span { 
-    background-image: url(../images/5.jpg);
-    animation-delay: 24s; 
-}
-.cb-slideshow li:nth-child(6) span { 
-    background-image: url(../images/6.jpg);
-    animation-delay: 30s; 
-}
-
-.cb-slideshow li:nth-child(2) div { 
-    animation-delay: 6s; 
-}
-.cb-slideshow li:nth-child(3) div { 
-    animation-delay: 12s; 
-}
-.cb-slideshow li:nth-child(4) div { 
-    animation-delay: 18s; 
-}
-.cb-slideshow li:nth-child(5) div { 
-    animation-delay: 24s; 
-}
-.cb-slideshow li:nth-child(6) div { 
-    animation-delay: 30s; 
-}
-
-@keyframes imageAnimation { 
-    0% { opacity: 0; animation-timing-function: ease-in; }
-    8% { opacity: 1; animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-
-@keyframes titleAnimation { 
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
-    100% { opacity: 0 }
-}
-
-.no-cssanimations .cb-slideshow li span{
-	opacity: 1;
+.no-cssanimations .cb-slideshow li span {
+  opacity: 1;
 }
 
 
-/*** PORTFOLIO EFFECTS ***/ 
-#text       {  font-family:Helvetica;
-               font-weight:500;
-               color:rgba(255,255,255,.85);
-               font-size:20px;}
-#overlay    {  background:rgba(0,0,0,.75);
-               text-align:center; 
-               padding:90px 0 90px 0;
-               opacity:0;
-               -webkit-transition: opacity .25s ease;
--moz-transition: opacity .25s ease;} 
+/*** PORTFOLIO EFFECTS ***/
 
-/*** ART PORTFOLIO ***/ 
-#boxleftA1    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:50px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/khxEpVE.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#text {
+  font-family: Helvetica;
+  font-weight: 500;
+  color: rgba(255, 255, 255, .85);
+  font-size: 20px;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, .75);
+  text-align: center;
+  padding: 90px 0 90px 0;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+
+/*** ART PORTFOLIO ***/
+
+#boxleftA1 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 50px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/khxEpVE.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA1:hover #overlay {
-               opacity:1;}
- 
-#boxcenterA1    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/CPz0hJ9.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+  opacity: 1;
+}
+
+#boxcenterA1 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/CPz0hJ9.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA1:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA1    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/7SfhFp0.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA1 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/7SfhFp0.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA1:hover #overlay {  
-               opacity:1;}
+#boxrightA1:hover #overlay {
+  opacity: 1;
+}
 
-#boxleftA2    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:25px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/IgOnEK2.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxleftA2 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 25px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/IgOnEK2.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA2:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxcenterA2    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/iDYsP7j.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxcenterA2 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/iDYsP7j.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA2:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA2    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/w2lDvE1.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA2 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/w2lDvE1.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA2:hover #overlay {  
-               opacity:1;}
+#boxrightA2:hover #overlay {
+  opacity: 1;
+}
 
-#boxleftA3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:25px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/qipgukT.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxleftA3 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 25px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/qipgukT.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA3:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxcenterA3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/5CClMwB.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxcenterA3 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/5CClMwB.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA3:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/exfIvVU.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA3 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/exfIvVU.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA3:hover #overlay {  
-               opacity:1;}
+#boxrightA3:hover #overlay {
+  opacity: 1;
+}
 
-#boxleftA4    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:25px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/PLUljNq.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxleftA4 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 25px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/PLUljNq.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA4:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxcenterA4    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/Uy9JpxS.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxcenterA4 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/Uy9JpxS.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA4:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA4    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/rxfPJx4.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA4 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/rxfPJx4.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA4:hover #overlay {  
-               opacity:1;}
+#boxrightA4:hover #overlay {
+  opacity: 1;
+}
 
-#boxleftA5    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:25px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/nsjo71B.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxleftA5 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 25px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/nsjo71B.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA5:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxcenterA5    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/sfFNtRg.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxcenterA5 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/sfFNtRg.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA5:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA5    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/fqUJwuX.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA5 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/fqUJwuX.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA5:hover #overlay {  
-               opacity:1;}
-               
-#boxleftA6    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:50px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/hcH0Bv2.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA5:hover #overlay {
+  opacity: 1;
+}
+
+#boxleftA6 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 50px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/hcH0Bv2.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA6:hover #overlay {
-               opacity:1;}
- 
-#boxcenterA6    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/Kc9GsQA.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+  opacity: 1;
+}
+
+#boxcenterA6 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/Kc9GsQA.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA6:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA6    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/Ackj8tw.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA6 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/Ackj8tw.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA6:hover #overlay {  
-               opacity:1;}
-               
-#boxleftA7    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:50px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/xeMfSGX.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA6:hover #overlay {
+  opacity: 1;
+}
+
+#boxleftA7 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 50px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/xeMfSGX.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA7:hover #overlay {
-               opacity:1;}
- 
-#boxcenterA7    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/yAlPRwZ.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+  opacity: 1;
+}
+
+#boxcenterA7 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/yAlPRwZ.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA7:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA7    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url();
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA7 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url();
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA7:hover #overlay {  
-               opacity:1;}
-               
-#boxleftA8    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:50px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/F3yhSCT.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA7:hover #overlay {
+  opacity: 1;
+}
+
+#boxleftA8 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 50px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/F3yhSCT.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA8:hover #overlay {
-               opacity:1;}
- 
-#boxcenterA8    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/zQA604T.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+  opacity: 1;
+}
+
+#boxcenterA8 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/zQA604T.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA8:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA8    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/LPlvKfs.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA8 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/LPlvKfs.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA8:hover #overlay {  
-               opacity:1;}
-               
- #boxleftA9    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:50px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/akpSJt5.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA8:hover #overlay {
+  opacity: 1;
+}
+
+#boxleftA9 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 50px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/akpSJt5.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftA9:hover #overlay {
-               opacity:1;}
- 
-#boxcenterA9    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/xW2Qpzc.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+  opacity: 1;
+}
+
+#boxcenterA9 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/xW2Qpzc.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterA9:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightA9    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/h4HqSgd.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightA9 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/h4HqSgd.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightA9:hover #overlay {  
-               opacity:1;}
-               
+#boxrightA9:hover #overlay {
+  opacity: 1;
+}
+
+
 /*** PROJECT PORTFOLIO ***/
-#boxleftP1    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:50px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/EYlBnRd.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+
+#boxleftP1 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 50px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/EYlBnRd.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftP1:hover #overlay {
-               opacity:1;}
- 
-#boxcenterP1    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/o88kUqF.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+  opacity: 1;
+}
+
+#boxcenterP1 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/o88kUqF.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterP1:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightP1    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/TcXllPM.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightP1 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/TcXllPM.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightP1:hover #overlay {  
-               opacity:1;}
+#boxrightP1:hover #overlay {
+  opacity: 1;
+}
 
-#boxleftP2    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:25px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/8lE3dr5.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxleftP2 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 25px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/8lE3dr5.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftP2:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxcenterP2    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url(https://i.imgur.com/1uv4LDh.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxcenterP2 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url(https://i.imgur.com/1uv4LDh.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterP2:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightP2    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url(https://i.imgur.com/BtM422a.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightP2 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url(https://i.imgur.com/BtM422a.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightP2:hover #overlay {  
-               opacity:1;}
+#boxrightP2:hover #overlay {
+  opacity: 1;
+}
 
-#boxleftP3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:50px auto 25px auto; 
-          left: -325px;
-          background:url(https://i.imgur.com/uwxkIDY.jpg);
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxleftP3 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: 50px auto 25px auto;
+  left: -325px;
+  background: url(https://i.imgur.com/uwxkIDY.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxleftP3:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxcenterP3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          background:url();
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxcenterP3 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  background: url();
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
 #boxcenterP3:hover #overlay {
-               opacity:1;}
+  opacity: 1;
+}
 
-#boxrightP3    {  width:300px;
-           height:300px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          position:relative;
-          margin:-325px auto 25px auto; 
-          right: -325px; 
-          background:url();
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
+#boxrightP3 {
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+  position: relative;
+  margin: -325px auto 25px auto;
+  right: -325px;
+  background: url();
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-#boxrightP3:hover #overlay {  
-               opacity:1;}
-               
-
+#boxrightP3:hover #overlay {
+  opacity: 1;
+}
 
 @font-face {
-    font-family: 'BebasNeueRegular';
-    src: url('fonts/BebasNeue-webfont.eot');
-    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BebasNeue-webfont.woff') format('woff'),
-         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
-         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'BebasNeueRegular';
+  src: url('fonts/BebasNeue-webfont.eot');
+  src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/BebasNeue-webfont.woff') format('woff'), url('fonts/BebasNeue-webfont.ttf') format('truetype'), url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 /* CSS reset */
-ul{ 
-	margin:0;
-	padding:0;
+
+ul {
+  margin: 0;
+  padding: 0;
 }
+
 table {
-	border-collapse:collapse;
-	border-spacing:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-fieldset,img { 
-	border:0;
+
+fieldset,
+img {
+  border: 0;
 }
-input{
-	border:1px solid #b0b0b0;
-	padding:3px 5px 4px;
-	color:#979797;
-	width:190px;
+
+input {
+  border: 1px solid #b0b0b0;
+  padding: 3px 5px 4px;
+  color: #979797;
+  width: 190px;
 }
-address,caption,cite,code,dfn,th,var {
-	font-style:normal;
-	font-weight:normal;
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
 }
-ol,ul {
-	list-style:none;
+
+ol,
+ul {
+  list-style: none;
 }
-caption,th {
-	text-align:left;
+
+caption,
+th {
+  text-align: left;
 }
-q:before,q:after {
-	content:'';
+
+q:before,
+q:after {
+  content: '';
 }
-abbr,acronym { border:0;
+
+abbr,
+acronym {
+  border: 0;
 }
+
+
 /* General Demo Style */
-body{
-	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background: #f2f2f2;
-	font-weight: 400;
-	font-size: 15px;
-	color: #1a1a1a;
-	overflow-y: scroll;
-	overflow-x: hidden;
-}
-.ie7 body{
-	overflow:hidden;
-}
-.container{
-	position: relative;
-	text-align: center;
-}
-.clr{
-	clear: both;
-}
-.container > header{
-	padding: 30px 30px 10px 20px;
-	margin: 0px 20px 10px 20px;
-	position: relative;
-	display: block;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-    text-align: left;
-}
-.container > header h1{
-	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	font-size: 35px;
-	line-height: 35px;
-	position: relative;
-	font-weight: 400;
-	color: #fff;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    padding: 0px 0px 5px 0px;
-}
-.container > header h1 span{
 
+body {
+  font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  background: #f2f2f2;
+  font-weight: 400;
+  font-size: 15px;
+  color: #1a1a1a;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-.container > header h2, p.info{
-	font-size: 16px;
-	font-style: italic;
-	color: #f8f8f8;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+
+.ie7 body {
+  overflow: hidden;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.clr {
+  clear: both;
+}
+
+.container > header {
+  padding: 30px 30px 10px 20px;
+  margin: 0px 20px 10px 20px;
+  position: relative;
+  display: block;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.container > header h1 {
+  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+  position: relative;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 0px 0px 5px 0px;
+}
+
+.container > header h1 span {}
+
+.container > header h2,
+p.info {
+  font-size: 16px;
+  font-style: italic;
+  color: #f8f8f8;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+
 /* Header Style */
-.codrops-top{
-	font-family: Arial, sans-serif;
-	line-height: 24px;
-	font-size: 11px;
-	width: 100%;
-	background: #000;
-	opacity: 0.9;
-	text-transform: uppercase;
-	z-index: 9999;
-	position: relative;
-	-moz-box-shadow: 1px 0px 2px #000;
-	-webkit-box-shadow: 1px 0px 2px #000;
-	box-shadow: 1px 0px 2px #000;
-}
-.codrops-top a{
-	padding: 0px 10px;
-	letter-spacing: 1px;
-	color: #ddd;
-	display: block;
-	float: left;
-}
-.codrops-top a:hover{
-	color: #fff;
-}
-.codrops-top span.right{
-	float: right;
-}
-.codrops-top span.right a{
-	float: none;
-	display: inline;
+
+.codrops-top {
+  font-family: Arial, sans-serif;
+  line-height: 24px;
+  font-size: 11px;
+  width: 100%;
+  background: #000;
+  opacity: 0.9;
+  text-transform: uppercase;
+  z-index: 9999;
+  position: relative;
+  -moz-box-shadow: 1px 0px 2px #000;
+  -webkit-box-shadow: 1px 0px 2px #000;
+  box-shadow: 1px 0px 2px #000;
 }
 
-p.codrops-demos{
-	display: block;
-	padding: 15px 0px;
+.codrops-top a {
+  padding: 0px 10px;
+  letter-spacing: 1px;
+  color: #ddd;
+  display: block;
+  float: left;
 }
+
+.codrops-top a:hover {
+  color: #fff;
+}
+
+.codrops-top span.right {
+  float: right;
+}
+
+.codrops-top span.right a {
+  float: none;
+  display: inline;
+}
+
+p.codrops-demos {
+  display: block;
+  padding: 15px 0px;
+}
+
 p.codrops-demos a,
 p.codrops-demos a.current-demo,
-p.codrops-demos a.current-demo:hover{
-    display: inline-block;
-	border: 1px solid #6d0019;
-	padding: 4px 10px 3px;
-	font-size: 13px;
-	line-height: 18px;
-	margin: 2px 3px;
-	font-weight: 800;
-	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
-	-moz-box-shadow:0px 1px 1px rgba(0,0,0,0.1);
-	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
-	color:#fff;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	background: #a90329;
-	background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019));
-	background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
-	background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
-	background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
-	background: linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
+p.codrops-demos a.current-demo:hover {
+  display: inline-block;
+  border: 1px solid #6d0019;
+  padding: 4px 10px 3px;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 2px 3px;
+  font-weight: 800;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #a90329;
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a90329), color-stop(44%, #8f0222), color-stop(100%, #6d0019));
+  background: -webkit-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: -o-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: -ms-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
 }
-p.codrops-demos a:hover{
-	background: #6d0019;
+
+p.codrops-demos a:hover {
+  background: #6d0019;
 }
-p.codrops-demos a:active{
-	background: #6d0019;
-	background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d0019), color-stop(56%,#8f0222), color-stop(100%,#a90329));
-	background: -webkit-linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%); 
-	background: -o-linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
-	background: -ms-linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
-	background: linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
-	-webkit-box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
-	-moz-box-shadow:0px 1px 1px rgba(255,255,255,0.9);
-	box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+
+p.codrops-demos a:active {
+  background: #6d0019;
+  background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6d0019), color-stop(56%, #8f0222), color-stop(100%, #a90329));
+  background: -webkit-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
+  background: -o-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
+  background: -ms-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
+  background: linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
+  -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+  -moz-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
 }
+
 p.codrops-demos a.current-demo,
-p.codrops-demos a.current-demo:hover{
-	color: #A5727D;
-	background: #6d0019;
+p.codrops-demos a.current-demo:hover {
+  color: #A5727D;
+  background: #6d0019;
 }
+
+
 /* Media Queries */
+
 @media screen and (max-width: 767px) {
-	.container > header{
-		text-align: center;
-	}
-	p.codrops-demos {
-		position: relative;
-		top: auto;
-		left: auto;
-	}
+  .container > header {
+    text-align: center;
+  }
+  p.codrops-demos {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
 }
