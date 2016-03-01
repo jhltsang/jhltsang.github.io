@@ -38,7 +38,7 @@ h1 {
   font-weight: 550;
   font-style: italic;
   text-align: center;
-  margin: 300px;
+  margin: 300px auto;
 }
 
 h2 {
@@ -54,7 +54,7 @@ h3 {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
   font-weight: 300;
   text-align: center;
-  margin: -300px
+  margin: -300px auto; 
 }
 
 
