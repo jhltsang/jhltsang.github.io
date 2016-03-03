@@ -1112,3 +1112,9 @@ p.codrops-demos a.current-demo:hover {
     left: auto;
   }
 }
+
+/*** CENTER IMAGE ***/ 
+IMG.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
